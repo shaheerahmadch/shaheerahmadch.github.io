@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://shaheerahmadch.github.io/sitemap.xml
