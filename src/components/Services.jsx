@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Globe, Users, ArrowRight } from 'lucide-react';
+import { Globe, Users, ArrowRight, Briefcase } from 'lucide-react';
 import './Services.css';
 
 const Services = () => {
@@ -18,6 +18,13 @@ const Services = () => {
             description: "A thriving community dedicated to Microsoft technologies. We foster a supportive environment for individuals to learn, teach, and collaborate globally.",
             link: "https://www.youtube.com/@365ConnectCommunity",
             linkText: "Join Community"
+        },
+        {
+            icon: <Briefcase size={40} />,
+            title: "SA & Co.",
+            description: "Your trusted partner for Microsoft business applications development, consultancy, and digital transformation. Specializing in Power Platform, Azure, and Dynamics 365.",
+            link: "https://shaheerahmadco.github.io/",
+            linkText: "Visit Consultancy"
         }
     ];
 
